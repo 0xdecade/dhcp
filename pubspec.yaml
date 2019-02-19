@@ -1,0 +1,23 @@
+name: dhcp
+version: 0.1.0
+author: terrier989 <terrier989@gmail.com>
+homepage: https://github.com/terrier989/dart-dhcp
+description:
+  A package for working with the DHCP protocol.
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+dependencies:
+  meta: ^1.1.7
+  network: ^0.0.1
+  universal_io: ^0.1.0
+
+dev_dependencies:
+  pedantic: ^1.0.0
+  test: ^1.4.0
+
+dependency_overrides:
+  network:
+    git: https://github.com/terrier989/dart-network
+
